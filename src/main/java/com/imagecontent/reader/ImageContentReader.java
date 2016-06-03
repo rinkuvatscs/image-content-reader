@@ -10,7 +10,7 @@ import net.sourceforge.tess4j.util.LoadLibs;
 public class ImageContentReader {
 
 	public static void main(String[] args) {
-		File imageFile = new File("d://love.jpg");
+		File imageFile = new File("love.jpg");
 		String imageContent = imageToStringConvertor(imageFile);
 		System.out.println(imageContent);
 	}
